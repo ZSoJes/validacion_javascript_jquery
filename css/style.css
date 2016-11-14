@@ -1,0 +1,37 @@
+.error {
+  font-size: 14px;
+  color: white;
+  background: red;
+  display: none;
+  padding: 10px;
+  margin-left: 10px; 
+  position: absolute;
+  opacity: 0.9;
+}
+form{
+  margin: 50px 400px 0 400px;
+  padding: 50px;
+  border-radius: 10px;
+  background: white;
+  border-left: 90px groove cadetblue;
+}
+input[type=submit]{
+  border:none;
+  background-color: lightseagreen;
+  color:white;
+  box-shadow: 0 0 5px 5px cadetblue;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  margin-left: 300px
+}
+input[type=submit]:hover{
+  box-shadow: 0 0 10px 5px gray;
+}
+label{
+  font-size: 30px;
+  text-shadow: 2px 2px white;
+  }
+body{
+  background-image: url(http://wallpapercave.com/wp/tqyeBQZ.jpg);
+  background-position: top;
+}
